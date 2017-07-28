@@ -87,3 +87,19 @@ body {
 		top: -144px;
 	}
 }
+
+@media print {
+	.avatar-container {
+		width: 144px;
+	}
+	.avatar-container > img {
+		top: -144px;
+	}
+	.mdl-layout__container {
+		position: static !important;
+		height: auto !important;
+	}
+	.banner-background {
+		height: 12vh;
+	}
+}
