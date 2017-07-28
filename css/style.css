@@ -48,7 +48,7 @@ body {
 	box-shadow: 0 2px 0 0 rgba(0,0,0,0.17);
 }
 
-.cards {
+.flex-center {
 	justify-content: center;
 }
 .cards > div {
@@ -67,9 +67,12 @@ body {
 	background-color: #2e5a79;
 }
 
+.mdl-grid > .mdl-cell > h6{
+	margin: 0;
+}
 .mdl-grid > .mdl-cell > span{
-	font-size: 0.9em;
-	color: #555;
+	font-size: 0.8em;
+	color: #000;
 }
 
 @media (max-width: 960px) {
