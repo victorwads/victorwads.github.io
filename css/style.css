@@ -28,20 +28,38 @@ body {
 }
 .avatar-container {
 	position: relative;
-	width: 144px;
 	height: 0;
 	margin: 0 auto;
 }
 .avatar-container > img {
 	position: absolute;
-	bottom: 0;
+	right: 0;
+	top: -40px;
 	width: 144px;
 	border: 5px solid #f5f5f5;
 	border-radius: 50%;
 	box-shadow: 0 2px 0 0 rgba(0,0,0,0.17);
 }
 .cards > div {
-	padding: 20px;
-	margin-left: auto;
-	margin-right: auto;
+	position: relative;
+	min-height: 200px;
+	padding: 10px 20px 20px;
+	margin: 25px auto;
+}
+.cards > div > .material-icons{
+	position: absolute;
+	top: -23px;
+	padding: 9px;
+	border-radius: 50%;
+	color: white;
+	background-color: #2e5a79;
+}
+
+@media (max-width: 960px) {
+	.avatar-container {
+		width: 144px;
+	}
+	.avatar-container > img {
+		top: -144px;
+	}
 }
