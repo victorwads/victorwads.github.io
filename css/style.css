@@ -54,7 +54,6 @@ body {
 .cards > div {
 	box-sizing: border-box;
 	position: relative;
-	min-height: 200px;
 	padding: 10px 20px 20px;
 	margin: 25px 8px;
 }
