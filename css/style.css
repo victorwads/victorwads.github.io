@@ -1,15 +1,19 @@
-/*
-.demo-layout-transparent {
-	background: url('../imagens/background.png') center / cover;
+* {
+	outline: none;
 }
-.demo-layout-transparent .mdl-layout__header {
-	background-color: rgba(0, 0, 0, .4);
+
+.flasgs {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.demo-layout-transparent .mdl-layout__header,
-.demo-layout-transparent .mdl-layout__drawer-button {
-	color: write;
+.flasgs img {
+	border: 8px solid white;
+	border-radius: 50%;
+	width: 126px;
+	margin: 15px;
 }
-*/
+
 body {
 	background-color: #F0F0F0;
 }
