@@ -12,36 +12,58 @@
 	<script src="./js/https.js"></script>
 </head>
 <body>
-	<div class="demo-layout-transparent mdl-layout mdl-js-layout">
-		<header class="mdl-layout__header mdl-layout__header--fixed-reader">
-			<div class="mdl-layout__header-row">
-				<!-- Title -->
-				<span class="mdl-layout-title">Myself</span>
-				<!-- Add spacer, to align navigation to the right -->
-				<div class="mdl-layout-spacer"></div>
-			</div>
-		</header>
+	<div class="mdl-layout mdl-js-layout">
 		<div class="mdl-layout__drawer">
-			<span class="mdl-layout-title">Myself</span>
 			<nav class="mdl-navigation">
-				<a class="mdl-navigation__link" href="">Summary</a>
-				<a class="mdl-navigation__link" href="">Experiences</a>
-				<a class="mdl-navigation__link" href="">Education</a>
-				<a class="mdl-navigation__link" href="">Projects</a>
-				<a class="mdl-navigation__link" href="">Skills</a>
-				<a class="mdl-navigation__link" href="">Interests</a>
-				<a class="mdl-navigation__link" href="">Courses</a>
+				<a class="mdl-navigation__link" href="#Summary"><i class="material-icons">list</i> Summary</a>
+				<a class="mdl-navigation__link" href="#Experiences"><i class="material-icons">location_city</i> Experiences</a>
+				<a class="mdl-navigation__link" href="#Education"><i class="material-icons">school</i> Education</a>
+				<a class="mdl-navigation__link" href="#Language"><i class="material-icons">language</i> Language</a>
+				<a class="mdl-navigation__link" href="#Skills"><i class="material-icons">code</i> Skills</a>
+				<a class="mdl-navigation__link" href="#Projects"><i class="material-icons">poll</i> Projects</a>
+				<a class="mdl-navigation__link" href="#Courses"><i class="material-icons">pages</i> Courses</a>
+				<a class="mdl-navigation__link" href="#Interests"><i class="material-icons">favorite</i> Interests</a>
 			</nav>
 		</div>
+		<header class="mdl-layout__header mdl-layout__header--transparent">
+		</header>
 		<main class="mdl-layout__content">
-		<div class="banner-background"></div>
+			<div class="mdl-shadow--2dp banner-background"></div>
 			<div class="mdl-grid">
-				<div class="mdl-cell mdl-cell--2-col"></div>
-				<div class="mdl-cell mdl-cell--8-col mdl-shadow--4dp mdl-color--white personal-info">
+				<div class="mdl-cell mdl-cell--6-col mdl-shadow--4dp mdl-color--white personal-info">
 					<div class="avatar-container">
 						<img src="./imagens/perfil.jpg" alt="">
 					</div>
 					Victor Cleber Laureano
+					single, no smoke
+					22, student
+					Barretos - SP
+				</div>
+			</div>
+			<div class="mdl-grid cards">
+				<div id="Summary" class="mdl-card mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<i class="material-icons">list</i>
+				</div>
+				<div id="Experiences" class="mdl-card mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<i class="material-icons">location_city</i>
+				</div>
+				<div id="Education" class="mdl-card mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<i class="material-icons">school</i>
+				</div>
+				<div id="Language" class="mdl-card mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<i class="material-icons">language</i>
+				</div>
+				<div id="Skills" class="mdl-card mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<i class="material-icons">code</i>
+				</div>
+				<div id="Projects" class="mdl-card mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<i class="material-icons">poll</i>
+				</div>
+				<div id="Courses" class="mdl-card mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<i class="material-icons">pages</i>
+				</div>
+				<div id="Interests" class="mdl-card mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
+					<i class="material-icons">favorite</i>
 				</div>
 			</div>
 		</main>

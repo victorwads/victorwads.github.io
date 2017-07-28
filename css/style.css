@@ -10,14 +10,21 @@
 	color: write;
 }
 */
+body {
+	background-color: #F0F0F0;
+}
+.mdl-layout__header {
+	position: absolute;
+}
 .banner-background {
-	background: url('../imagens/background.png') center center #000/ cover;
-	height: 40vh;
-	margin-bottom: -10vh;
+	background: url('../imagens/background.png') center #000/ cover;
+	height: 30vh;
+	margin-bottom: -5vh;
 }
 .personal-info {
 	border-radius: 2px;
 	padding: 20px;
+	margin: 0 auto;
 }
 .avatar-container {
 	position: relative;
@@ -32,4 +39,9 @@
 	border: 5px solid #f5f5f5;
 	border-radius: 50%;
 	box-shadow: 0 2px 0 0 rgba(0,0,0,0.17);
+}
+.cards > div {
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
 }
