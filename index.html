@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width">
-	<title>Victor Wads, Who Am I?</title>
+	<title>victorwads, Who Am I?</title>
 	<link rel="shortcut icon" type="image/png" href="./imagens/favicon.png"/>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 	<link rel="stylesheet" href="./css/material.min.css">
@@ -16,7 +16,7 @@
 	<div class="mdl-layout mdl-js-layout">
 		<div class="mdl-layout__drawer">
 			<nav class="mdl-navigation">
-				<a class="mdl-navigation__link" href="#Summary"><i class="material-icons">list</i> Summary</a>
+				<a class="mdl-navigation__link" href="#Summary"><i class="material-icons">list</i> Who am I</a>
 				<a class="mdl-navigation__link" href="#Interests"><i class="material-icons">favorite</i> Interests</a>
 				<a class="mdl-navigation__link" href="#Education"><i class="material-icons">school</i> Education</a>
 				<a class="mdl-navigation__link" href="#Courses"><i class="material-icons">pages</i> Courses</a>
@@ -48,7 +48,7 @@
 			<div class="mdl-grid cards flex-center">
 				<div class="mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
 					<i id="Summary" class="material-icons">list</i>
-					<h5>Summary</h5>
+					<h5>Who am I</h5>
 					<div>
 						"Amo viajar, desafios e tenho paixão em entrar em contato com novidades."<br />
 						<br />
@@ -62,7 +62,7 @@
 					<h5>Interests</h5>
 					<div class="mdl-grid">
 						<div class="mdl-cell mdl-cell--6-col">
-							<i class="material-icons">business</i>
+							<i id="ttpro" class="material-icons">business</i>
 							<span class="mdl-chip"><span class="mdl-chip__text">Dev Web</span></span>
 							<span class="mdl-chip"><span class="mdl-chip__text">Dev Java</span></span>
 							<span class="mdl-chip"><span class="mdl-chip__text">Dev Android</span></span>
@@ -70,7 +70,7 @@
 							<span class="mdl-chip"><span class="mdl-chip__text">Pesquisa</span></span>
 						</div>
 						<div class="mdl-cell mdl-cell--6-col">
-							<i class="material-icons">mood</i>
+							<i id="ttpes" class="material-icons">mood</i>
 							<span class="mdl-chip"><span class="mdl-chip__text">Musica</span></span>
 							<span class="mdl-chip"><span class="mdl-chip__text">Series</span></span>
 							<span class="mdl-chip"><span class="mdl-chip__text">Psicologia</span></span>
@@ -78,6 +78,8 @@
 							<span class="mdl-chip"><span class="mdl-chip__text">Comida</span></span>
 						</div>
 					</div>
+					<div class="mdl-tooltip" data-mdl-for="ttpro">Profissionais</div>
+					<div class="mdl-tooltip" data-mdl-for="ttpes">Pessoais</div>
 				</div>
 				<div class="mdl-cell--5-col mdl-cell--8-col-tablet mdl-shadow--2dp mdl-color--white">
 					<i id="Education" class="material-icons">school</i>
@@ -117,16 +119,16 @@
 					<div class="mdl-grid">
 						<div class="mdl-cell mdl-cell--3-col mdl-cell--8-col-tablet">
 							<div>
-								<span class="mdl-chip"><span class="mdl-chip__text">MySQL</span></span>
-								<span class="mdl-chip"><span class="mdl-chip__text">SQL Server</span></span>
-								<span class="mdl-chip"><span class="mdl-chip__text">SQLLite</span></span>
-								<span class="mdl-chip"><span class="mdl-chip__text">Git</span></span>
-								<span class="mdl-chip"><span class="mdl-chip__text">Linux</span></span>
-								<span class="mdl-chip"><span class="mdl-chip__text">Trello</span></span>
-								<span class="mdl-chip"><span class="mdl-chip__text">Adobe Illustrator</span></span>
-								<span class="mdl-chip"><span class="mdl-chip__text">Adobe Premiere Pro</span></span>
-								<span class="mdl-chip"><span class="mdl-chip__text">Adobe Fireworks</span></span>
-								<span class="mdl-chip"><span class="mdl-chip__text">Adobe Animate (Flash Pro)</span></span>
+								<span id="ttMySQL" class="mdl-chip"><span class="mdl-chip__text">MySQL</span></span>
+								<span id="ttMySQLS" class="mdl-chip"><span class="mdl-chip__text">SQL Server</span></span>
+								<span id="ttMySQLL" class="mdl-chip"><span class="mdl-chip__text">SQLLite</span></span>
+								<span id="ttGit" class="mdl-chip"><span class="mdl-chip__text">Git</span></span>
+								<span id="ttLinux" class="mdl-chip"><span class="mdl-chip__text">Linux</span></span>
+								<span id="ttTrello" class="mdl-chip"><span class="mdl-chip__text">Trello</span></span>
+								<span id="ttAI" class="mdl-chip"><span class="mdl-chip__text">Adobe Illustrator</span></span>
+								<span id="ttPR" class="mdl-chip"><span class="mdl-chip__text">Adobe Premiere Pro</span></span>
+								<span id="ttFR" class="mdl-chip"><span class="mdl-chip__text">Adobe Fireworks</span></span>
+								<span id="ttAN" class="mdl-chip"><span class="mdl-chip__text">Adobe Animate (Flash Pro)</span></span>
 							</div>
 						</div>
 						<div class="mdl-cell mdl-cell--3-col">
@@ -183,6 +185,16 @@
 							</div>
 						</div>
 					</div>
+					<div class="mdl-tooltip" data-mdl-for="ttMySQL">80%</div>
+					<div class="mdl-tooltip" data-mdl-for="ttMySQLS">40%</div>
+					<div class="mdl-tooltip" data-mdl-for="ttMySQLL">70%</div>
+					<div class="mdl-tooltip" data-mdl-for="ttGit">85%</div>
+					<div class="mdl-tooltip" data-mdl-for="ttLinux">39%</div>
+					<div class="mdl-tooltip" data-mdl-for="ttTrello">30%</div>
+					<div class="mdl-tooltip" data-mdl-for="ttAI">65%</div>
+					<div class="mdl-tooltip" data-mdl-for="ttPR">40%</div>
+					<div class="mdl-tooltip" data-mdl-for="ttFR">83%</div>
+					<div class="mdl-tooltip" data-mdl-for="ttAN">70%</div>
 				</div>
 				<div class="mdl-cell--10-col mdl-shadow--2dp mdl-color--white">
 					<i id="Projects" class="material-icons">poll</i>

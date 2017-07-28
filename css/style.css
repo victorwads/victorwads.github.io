@@ -85,6 +85,9 @@ body {
 .mdl-slider.is-upgraded:disabled + .mdl-slider__background-flex > .mdl-slider__background-lower {
 	background-color: #3f51b5;
 }
+.material-icons {
+	cursor: default;
+}
 
 @media (max-width: 960px) {
 	.avatar-container {
