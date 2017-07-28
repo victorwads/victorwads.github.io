@@ -66,6 +66,14 @@ body {
 	background-color: #2e5a79;
 }
 
+.projects img{
+	height: 80px;
+	margin: 5px 15px;
+}
+.projects h6{
+	margin: 0;
+}
+
 .mdl-grid > .mdl-cell > h6{
 	margin: 0;
 }
