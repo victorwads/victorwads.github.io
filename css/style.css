@@ -1,0 +1,35 @@
+/*
+.demo-layout-transparent {
+	background: url('../imagens/background.png') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header {
+	background-color: rgba(0, 0, 0, .4);
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+	color: write;
+}
+*/
+.banner-background {
+	background: url('../imagens/background.png') center center #000/ cover;
+	height: 40vh;
+	margin-bottom: -10vh;
+}
+.personal-info {
+	border-radius: 2px;
+	padding: 20px;
+}
+.avatar-container {
+	position: relative;
+	width: 144px;
+	height: 0;
+	margin: 0 auto;
+}
+.avatar-container > img {
+	position: absolute;
+	bottom: 0;
+	width: 144px;
+	border: 5px solid #f5f5f5;
+	border-radius: 50%;
+	box-shadow: 0 2px 0 0 rgba(0,0,0,0.17);
+}
