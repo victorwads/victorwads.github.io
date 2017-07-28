@@ -26,6 +26,12 @@ body {
 	padding: 20px;
 	margin: 0 auto;
 }
+.personal-info > h4 {
+	margin: 0;
+}
+.personal-info > h6 {
+	margin-top: 0;
+}
 .avatar-container {
 	position: relative;
 	height: 0;
@@ -40,11 +46,15 @@ body {
 	border-radius: 50%;
 	box-shadow: 0 2px 0 0 rgba(0,0,0,0.17);
 }
+.cards {
+	justify-content: center;
+}
 .cards > div {
+	box-sizing: border-box;
 	position: relative;
 	min-height: 200px;
 	padding: 10px 20px 20px;
-	margin: 25px auto;
+	margin: 25px 8px;
 }
 .cards > div > .material-icons{
 	position: absolute;
