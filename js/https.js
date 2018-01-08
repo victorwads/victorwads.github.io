@@ -12,3 +12,10 @@ ga('send', 'pageview');
 
 //Private Analytics
 (function(i,s,o,g,a,m){a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://privateanalytics.kavi.ga/embeded/script.js');
+
+//Language
+window.addEventListener('load', function () {
+	document.querySelector('.chlang').addEventListener('click', function () {
+		sessionStorage.setItem('userLang', true);
+	});
+})
