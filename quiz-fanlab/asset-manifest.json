@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/quiz-fanlab/static/css/main.927ef687.css",
+    "main.js": "/quiz-fanlab/static/js/main.02f2c2b1.js",
+    "static/media/Larsseit-Light.woff2": "/quiz-fanlab/static/media/Larsseit-Light.4e11b7945bd9aebe1a11.woff2",
+    "static/media/Larsseit-Regular.woff2": "/quiz-fanlab/static/media/Larsseit-Regular.2a23d8a34f2d871bf9cb.woff2",
+    "static/media/Larsseit-Bold.woff2": "/quiz-fanlab/static/media/Larsseit-Bold.8165d65c3c13c566cdb9.woff2",
+    "static/media/Technor-Medium.woff2": "/quiz-fanlab/static/media/Technor-Medium.abe70719c80dfbf6b1fc.woff2",
+    "static/media/Technor-Bold.woff2": "/quiz-fanlab/static/media/Technor-Bold.8ea47b8715b5eb15decc.woff2",
+    "index.html": "/quiz-fanlab/index.html",
+    "main.927ef687.css.map": "/quiz-fanlab/static/css/main.927ef687.css.map",
+    "main.02f2c2b1.js.map": "/quiz-fanlab/static/js/main.02f2c2b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.927ef687.css",
+    "static/js/main.02f2c2b1.js"
+  ]
+}
