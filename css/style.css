@@ -90,11 +90,13 @@ body {
 	margin: 0;
 }
 
+.projects {
+	justify-content: space-between;
+}
+
 .projects >  div {
-	box-sizing: border-box;
-	max-width: 43%;
 	text-align: center;
-	font-size: 0.8em;
+	margin: 20px 0;
 }
 
 .mdl-grid > .mdl-cell > h6 {
